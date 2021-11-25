@@ -1,0 +1,4 @@
+var reviews = [
+    "Eros in cursus turpis massa  dui ut ornare lectus. Ac auctor augue mauris gravida in fermentum.",
+    "Eros in cursus turpis massa  dui ut ornare lectus. Ac auctor augue mauris gravida in fermentum.",
+]
