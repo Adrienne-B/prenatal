@@ -218,7 +218,7 @@ a {
   text-decoration: none; /*removes the underlines from nav bar*/
 
 
-.nav {
+.navbar {
   display: flex;
   margin: 0;
   justify-content: space-between;
@@ -634,8 +634,31 @@ span {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 768) {
   /* Style adjustments for viewports that meet the condition */
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  
+
+}
 }
 
 @media print,
