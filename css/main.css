@@ -199,6 +199,39 @@ address {
 
 /*STARTING MOBILE SIZE*/
 
+header {
+  background-color: #000;
+}
+
+li {
+  color: #fff;
+  text-decoration: none; /*removes the underlines from nav bar*/
+  list-style: none; /*removes dots*/
+}
+
+/*
+a {
+  color: #fff;
+  text-decoration: none; /*removes the underlines from nav bar*/
+
+
+.navbar {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+
+
+
 .hero-area {
   display: flex;
   flex-direction: row;
@@ -414,21 +447,47 @@ figure img {
   width: 67%;
 
 }
+
 /************ End of Yoga **********/
 
 .reviews {
+  display: flex;
+  flex-direction: row;
   background-color: #EFEBDA;
-  padding-bottom: 58rem;
+  padding-bottom: 28rem;
 }
 
 .container-6 h4 {
   font-family: 'Myriad Pro';
   font-size: 1.5rem;
   position: relative;
-  left: 6.8rem;
-  padding-top: 5rem;
+  left: 0.8rem;
+  margin-bottom: -4rem;
+  padding-top: 17rem;
   text-align: center;
+}
 
+.container-6 p {
+  font-family: 'MS Reference Sans Serif';
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-align: justify;
+}
+
+span {
+  font-size: 1.4rem;
+  color: purple;
+}
+
+.hit {
+  background-color: purple;
+  border-radius: 16px;
+  box-shadow: 1px 3px 10px 1px rgba(0,0,0,.3);
+  color: #fff;
+  padding: 12px 36px;
+  position: relative;
+  left: 9rem;
+  top: 3rem;
 }
 
 
