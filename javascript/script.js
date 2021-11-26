@@ -1,18 +1,18 @@
-const todoList = document.querySelector(".list");
-const button = document.querySelector(".more");
+const hamburger = document.querySelector(".hamburger);
+const navMenu = document.querySelector(".nav-menu");
 
-console.log("abc");
+hamburger.addEventListener("click", function () {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
 
-var list = [
-	"Eros in cursus turpis massa  dui ut ornare lectus. Ac auctor augue mauris gravida in fermentum.",
-	
-	"Eros in cursus turpis massa  dui ut ornare lectus. Ac auctor augue mauris gravida in fermentum.",
-	
-	"Eros in cursus turpis massa  dui ut ornare lectus. Ac auctor augue mauris gravida in fermentum.",
-	
-	"Eros in cursus turpis massa  dui ut ornare lectus. Ac auctor augue mauris gravida in fermentum."
-];
+document.querySelectorAll(".nav-link").forEach(n => n.
+    addEvent("click", function () {
+        hamburger.classList.remove("active");
 
-console.log("reviews");
+}));
 
-alert("this is a test");
+var reviews = [
+    "Eros in cursus turpis massa  dui ut ornare lectus. Ac auctor augue mauris gravida in fermentum.",
+    "Eros in cursus turpis massa  dui ut ornare lectus. Ac auctor augue mauris gravida in fermentum.",
+]
