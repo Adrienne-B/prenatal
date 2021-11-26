@@ -234,7 +234,7 @@ a {
 }
 
 .hamburger {
-  display: block;
+  display: none;
   cursor: pointer;
   position:relative;
   left: 9.7rem;
