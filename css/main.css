@@ -219,37 +219,50 @@ a {
   text-decoration: none; /*removes the underlines from nav bar*/
 }
 
+
+/*
 .navbar {
   display: flex;
   /*margin: 0;*/
+
+  /*
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-}
+}*/
 
+/*
 .nav-menu {
-  display: flex;
+  display: flex;*/
  /* justify-content: space-between;*/
-  align-items: center;
+  /*align-items: center;
   gap: 20px;
-}
+}*/
 
+/*
 .hamburger {
   display: block;
   cursor: pointer;
   position: relative;
   left: 47rem;
   top: 2rem;
-}
+}*/
 
 .bar {
   display: block;
-  width: 25px;
+  width: 28px;
   height: 3px;
+  left: -2.3rem;
+  top: 1.5rem;
   margin: 5px auto;
+  position: relative;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
+}
+
+a.nav-link {
+  display: none;
 }
 
 footer {
@@ -304,6 +317,12 @@ footer {
   width: 8.1rem;
 }
 
+.btn-full {
+  color: #fff;
+  position: relative;
+  left: -0.3rem;
+  text-transform: uppercase;
+}
 /************ End of Hero Area **********/
 
 .specialist-team {
@@ -627,6 +646,44 @@ span {
 
 @media only screen and (min-width: 768) {
   /* Style adjustments for viewports that meet the condition */
+
+
+
+
+.navbar {
+  display: flex;
+  /*margin: 0;*/
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+ /* justify-content: space-between;*/
+  align-items: center;
+  gap: 20px;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  left: 47rem;
+  top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
   .hamburger {
     display: block;
   }
