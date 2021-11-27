@@ -403,7 +403,8 @@ img {
 .container-3 {
   background-color: #D6C9BF;
   margin-bottom: 55rem;
-  position: relative;
+  padding-bottom: 54rem;
+  /*position: relative;*/
 
 }
 
@@ -449,7 +450,8 @@ figure img {
 
 .yoga {
   display: flex;
-  margin-top: 53rem;
+  margin-top: -55rem;
+  /*margin-top: 53rem; this was used because the background for questions and concerns had position relative in it*/
   padding-top: 4rem;
 }
 
