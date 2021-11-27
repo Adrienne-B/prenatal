@@ -208,7 +208,8 @@ li {
  
   font-family: 'Comic Sans MS';
   font-style: italic;
-  
+  color: #fff;
+  text-decoration: none; /*removes the underlines from nav bar*/
   list-style: none; /*removes dots*/
 }
 
@@ -237,7 +238,7 @@ a {
   display: block;
   cursor: pointer;
   position: relative;
-  left: 9.7rem;
+  left: 47rem;
   top: 2rem;
 }
 
@@ -251,7 +252,13 @@ a {
   background-color: white;
 }
 
-
+footer {
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 34px;
+  padding-top: 28px;
+  text-align: center;
+}
 
 
 .hero-area {
@@ -281,6 +288,7 @@ a {
   color: white;
   font-size: 1.3rem;
   left: 4rem;
+  line-height: 1.4rem;
   position: relative;
   top: 6rem;
   word-wrap: break-word;
@@ -335,9 +343,24 @@ img {
   width: 60%;
 }
 
+#samantha h3 {
+  position: relative;
+  left: 6.1rem;
+}
+
+#samantha h5 {
+  position: relative;
+  left: 7.4rem;
+}
+
  #debra {
   height: 45rem;
-  padding-top: 10rem;
+  padding-top: 3.2rem;
+}
+
+#debra h3 {
+  position: relative;
+  left: 7rem;
 }
 
 .container-2 h3 {
