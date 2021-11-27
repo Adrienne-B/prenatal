@@ -566,6 +566,13 @@ span {
 .container-7 {
   background-color: #fff;
   padding-top: 15rem;
+  padding-bottom: 12rem;
+}
+
+iframe {
+  position: relative;
+  left: 1.9rem;
+  bottom: 3.4rem;
 }
 
 #address h4 {
@@ -573,15 +580,18 @@ span {
   justify-content: center;
   font-size: 1.4rem;
   position: relative;
-  top: -8rem;
+  top: 1rem;
 }
 
 #address p, #contact p {
   color: gray;
   font-family: 'MS Reference Sans Serif';
+  position: relative;
+  top: 2rem;
   text-align: center;
   weight: 200;
 }
+
 
 
 
